@@ -83,6 +83,8 @@
         cursor: pointer;
         padding: 0.3rem;
         margin: 0;
+        line-height: 2rem;
+        vertical-align: middle;
     }
     button:hover {
         background-color: rgb(50,50,50);
