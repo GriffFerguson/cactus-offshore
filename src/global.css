@@ -5,10 +5,15 @@ body, html {
     font-size: 18px;
 }
 
-p, a {
+p, a, h2 {
     color: rgb(35,35,35);
     font-family: "Raleway", sans-serif;
     font-size: 1rem;
+}
+
+h2 {
+    font-size: 2.45rem;
+    text-align: center;
 }
 
 @font-face {

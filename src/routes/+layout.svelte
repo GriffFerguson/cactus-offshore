@@ -62,6 +62,6 @@
         color: rgb(35,35,35);
         width: 100%;
         text-align: center;
-        padding: 0.5vh 0;
+        padding: 1vh 0;
     }
 </style>
