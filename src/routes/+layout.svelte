@@ -23,6 +23,8 @@
 
 <style>
     header {
+        position: relative;
+        z-index: 999;
         width: 35%;
         margin: 0 32.5%;
         padding: 3vh 0;
@@ -90,6 +92,10 @@
         header {
             width: 80%;
             margin: 0 10%;
+        }
+        header img {
+            width: 70%;
+            margin: 0 15%;
         }
     }
 </style>

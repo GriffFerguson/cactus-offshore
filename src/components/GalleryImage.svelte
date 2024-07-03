@@ -85,4 +85,11 @@
     button:hover {
         background-color: rgb(50,50,50);
     }
+
+    @media screen and (max-width: 900px) {
+        #image-viewer-container {
+            max-width: 90%;
+            max-height: 85%;
+        }
+    }
 </style>
