@@ -81,6 +81,8 @@
         font-size: 1.2rem;
         text-align: center;
         cursor: pointer;
+        padding: 0.3rem;
+        margin: 0;
     }
     button:hover {
         background-color: rgb(50,50,50);
