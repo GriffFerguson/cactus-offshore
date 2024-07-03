@@ -83,7 +83,7 @@
         cursor: pointer;
         padding: 0.3rem;
         margin: 0;
-        line-height: 2rem;
+        line-height: 1.2rem;
         vertical-align: middle;
     }
     button:hover {
