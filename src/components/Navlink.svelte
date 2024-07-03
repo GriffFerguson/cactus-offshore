@@ -14,6 +14,7 @@
         text-decoration: none;
         padding: 0.5rem 0.8rem;
         transition: background-color 0.4s;
+        font-size: 0.9rem;
     }
 
     a:hover {
