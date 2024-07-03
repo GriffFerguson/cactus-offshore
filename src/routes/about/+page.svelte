@@ -29,14 +29,12 @@
 </div>
 
 <style>
-    #content-wrapper {
+    #content-wrapper, #gallery {
         margin: 0 30%;
         width: 40%;
     }
 
     #gallery {
-        margin: 0 30%;
-        width: 40%;
         display:flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -46,5 +44,19 @@
     img {
         width: 100%;
         border-radius: 15px;
+    }
+
+    @media screen and (max-width: 1400px) {
+        #content-wrapper, #gallery {
+            margin: 0 20%;
+            width: 60%;
+        }
+    }
+    
+    @media screen and (max-width: 700px) {
+        #content-wrapper, #gallery {
+            margin: 0 10%;
+            width: 80%;
+        }
     }
 </style>

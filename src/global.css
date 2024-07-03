@@ -3,6 +3,7 @@ body, html {
     margin: 0;
     background-color: rgb(255,255,255);
     font-size: 18px;
+    overflow-x: hidden;
 }
 
 p, a, h2 {
@@ -19,4 +20,10 @@ h2 {
 @font-face {
     font-family: "Raleway";
     src: url("/Raleway/Raleway-VariableFont_wght.ttf");
+}
+
+@media screen and (max-width: 1800px) {
+    html, body {
+        font-size: 15px
+    }
 }

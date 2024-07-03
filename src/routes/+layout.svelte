@@ -64,4 +64,32 @@
         text-align: center;
         padding: 1vh 0;
     }
+    @media screen and (max-width: 1800px) {
+        nav {
+            width: 34%;
+        }
+        #nav-wrapper::before, #nav-wrapper::after {
+            width: 33%;
+        }
+    }
+
+    @media screen and (max-width: 1100px) {
+        header {
+            width: 65%;
+            margin: 0 17.5%;
+        }
+    }
+
+    @media screen and (max-width: 650px) {
+        nav {
+            width: 52%;
+        }
+        #nav-wrapper::before, #nav-wrapper::after {
+            width: 24%;
+        }
+        header {
+            width: 80%;
+            margin: 0 10%;
+        }
+    }
 </style>
