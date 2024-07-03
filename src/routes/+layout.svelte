@@ -4,12 +4,11 @@
 </script>
 
 <header>
-    <img src="/logo.png" alt="Cactus Offshore" role="heading" aria-level="1">
+    <img src="/horizontal.svg" alt="Cactus Offshore" role="heading" aria-level="1">
     <div id="nav-wrapper">
         <nav>
             <Navlink href="/">Home</Navlink>
             <Navlink href="/about">About</Navlink>
-            <Navlink href="/services">Services</Navlink>
         </nav>
     </div>
 </header>
@@ -39,7 +38,7 @@
     }
 
     nav {
-        width: 32%;
+        width: 24%;
         display: inline-flex;
         flex-direction: row;
         justify-content: center;
@@ -49,14 +48,14 @@
 
     #nav-wrapper::before, #nav-wrapper::after {
         content: "";
-        width: 34%;
+        width: 38%;
         height: 1px;
         background-color: rgb(35,35,35);
         display: inline-block;
     }
 
     footer {
-        position: absolute;
+        position: relative;
         bottom: 0.5vh;
         font-size: 0.84rem;
         font-family: "Raleway", sans-serif;
