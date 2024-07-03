@@ -1,0 +1,17 @@
+body, html {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(255,255,255);
+    font-size: 16px;
+}
+
+p, a {
+    color: rgb(35,35,35);
+    font-family: "Raleway", sans-serif;
+    font-size: 1rem;
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url("/Raleway/Raleway-VariableFont_wght.ttf");
+}
