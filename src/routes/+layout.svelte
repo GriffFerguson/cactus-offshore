@@ -5,12 +5,6 @@
 
 <header>
     <img src="/horizontal.svg" alt="Cactus Offshore" role="heading" aria-level="1">
-    <div id="nav-wrapper">
-        <nav>
-            <Navlink href="/">Home</Navlink>
-            <Navlink href="/about">About</Navlink>
-        </nav>
-    </div>
 </header>
 
 <main>
@@ -35,27 +29,6 @@
         margin: 0 25%;
     }
 
-    #nav-wrapper {
-        width: 100%;
-    }
-
-    nav {
-        width: 24%;
-        display: inline-flex;
-        flex-direction: row;
-        justify-content: center;
-        gap: 0.5rem;
-        padding: 0.7vh 0;
-    }
-
-    #nav-wrapper::before, #nav-wrapper::after {
-        content: "";
-        width: 38%;
-        height: 1px;
-        background-color: rgb(35,35,35);
-        display: inline-block;
-    }
-
     footer {
         position: relative;
         bottom: 0.5vh;
@@ -66,14 +39,6 @@
         text-align: center;
         padding: 1vh 0;
     }
-    @media screen and (max-width: 1800px) {
-        nav {
-            width: 34%;
-        }
-        #nav-wrapper::before, #nav-wrapper::after {
-            width: 33%;
-        }
-    }
 
     @media screen and (max-width: 1100px) {
         header {
@@ -83,12 +48,6 @@
     }
 
     @media screen and (max-width: 650px) {
-        nav {
-            width: 52%;
-        }
-        #nav-wrapper::before, #nav-wrapper::after {
-            width: 24%;
-        }
         header {
             width: 80%;
             margin: 0 10%;
