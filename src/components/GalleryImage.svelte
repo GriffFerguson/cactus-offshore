@@ -31,7 +31,7 @@
         margin: 0.5%;
         aspect-ratio: 16/10;
         display: block;
-        background-size: 100% auto;
+        background-size: cover;
         background-position: center center;
         cursor: pointer;
         background-repeat: no-repeat;

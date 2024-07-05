@@ -12,6 +12,11 @@ p, a, h2 {
     font-size: 1rem;
 }
 
+p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
 h2 {
     font-size: 2.45rem;
     text-align: center;

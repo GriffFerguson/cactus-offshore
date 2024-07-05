@@ -50,34 +50,36 @@
         font-weight: bold;
         margin: 0;
         padding: 0;
+        text-align: center;
     }
     p {
         color: white;
         font-size: 1rem;
+        text-shadow: 1px 1px black, -1px -1px black;
+    }
+
+    p:not(.large) {
+        width: 80%;
+        margin: 1.4ch 10%;
     }
 
     #content {
         top: 30%;
-        left: 12%;
         position: absolute;
-        width: 70%;
+        width: 50%;
+        margin: 0 25%;
     }
-    @media only screen and (max-width: 700px) {
-        #content {
-            left: 6%;
-            width: 85%;
-        }
-
+    @media only screen and (max-width: 750px) {
         .large {
-            font-size: 2.8rem;
+            font-size: 2.9rem;
         }
 
-        p {
-            font-size: 0.9rem;
+        #content {
+            width: 80%;
+            margin: 0 10%;
         }
 
-
-        #images {
+        /* #images {
             animation-name: imageSlideshow;
             animation-duration: 16s;
             animation-timing-function: ease-out;
@@ -100,6 +102,12 @@
             75%, 99% {
                 x: 2610px;
             }
+        } */
+    }
+    @media only screen and (max-width: 500px) {
+        #content {
+            width: 94%;
+            margin: 0 3%;
         }
     }
 </style>
